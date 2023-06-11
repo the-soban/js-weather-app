@@ -10,6 +10,6 @@
 ![Screenshot](./images/desktop-ss.png)
 
 ### Links:
-- [Live Site](https://www.rainlist.netlify.com)
-- [My Twitter](https://twitter.com/the_soban3)
-- [My LinkedIn](https://linkedin.com/in/sobans)
+- [Live Site on Netlify.](https://rainlist.netlify.app/))
+- [My Twitter Profile.](https://twitter.com/the_soban3)
+- [My LinkedIn Profile.](https://linkedin.com/in/sobans)
