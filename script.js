@@ -19,14 +19,18 @@ getWeather = async (city) => {
     const weatherData = await fetch(`${apiUrl}`).then(response => response.json());
 
     if(weatherData.cod === `404`){
+        weather.style.display = "flex";    
         errorMsg.style.display = "flex";
-        weatherImg.src = "./images/404.png";
         weatherDetails.style.display = "none";
+        weatherImg.src = "./images/404.png";
         tempValue.innerHTML = ``;
         descValue.innerHTML = ``;
         return;
     }
+    
+    errorMsg.style.display = "none";
     weather.style.display = "flex";    
+    weatherDetails.style.display = "flex";
     tempValue.innerHTML = `${Math.round(weatherData.main.temp - 273.15)}<sup>°C</sup>`;
     descValue.innerHTML = `${weatherData.weather[0].description}`;
     humidityValue.innerHTML = `${weatherData.main.humidity}%`;
