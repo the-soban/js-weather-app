@@ -6,10 +6,10 @@
 - HTML, CSS and JavaScript.
 - CSS Flexbox for Layout.
 - javaScript Event Handling and DOM Manipulation for Interactivity.
-- Screenshot:
+- Preview:
 ![Screenshot](./images/desktop-ss.png)
 
 ### Links:
-- [Live Site](https://www.github.com/octokatherine)
+- [Live Site](https://www.rainlist.netlify.com)
 - [My Twitter](https://twitter.com/the_soban3)
 - [My LinkedIn](https://linkedin.com/in/sobans)
